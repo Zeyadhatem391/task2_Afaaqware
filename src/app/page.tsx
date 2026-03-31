@@ -1,12 +1,12 @@
-import MainSecion from "@/components/organisms/MainSection";
-import NavbarSecion from "@/components/organisms/NavbarSecion";
+import MainSection from "@/components/organisms/MainSection";
+import NavbarSection from "@/components/organisms/NavbarSection";
 
 export default function Home() {
   return (
     <>
      <div className="h-screen">
-      <NavbarSecion />
-      <MainSecion />
+      <NavbarSection />
+      <MainSection />
      </div>
     </>
   );
