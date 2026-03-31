@@ -1,10 +1,10 @@
-import NavbarSecion from "@/components/organisms/NavbarSecion";
+import NavbarSection from "@/components/organisms/NavbarSection";
 
 export default function Home() {
   return (
     <>
      <div className="h-screen">
-      <NavbarSecion />
+      <NavbarSection />
      </div>
     </>
   );
