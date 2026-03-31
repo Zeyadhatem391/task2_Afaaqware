@@ -1,3 +1,4 @@
+import MainSecion from "@/components/organisms/MainSection";
 import NavbarSecion from "@/components/organisms/NavbarSecion";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
      <div className="h-screen">
       <NavbarSecion />
+      <MainSecion />
      </div>
     </>
   );
